@@ -1,0 +1,26 @@
+# 1. Initialize Git
+git init
+
+# 2. Add all files
+git add .
+
+# 3. Create your first commit
+git commit -m "Initial commit: Industrial Conveyor App"
+
+# 4. Set branch to main
+git branch -M main
+
+# 5. Link to your GitHub repo (REPLACE THE URL BELOW WITH YOURS)
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+
+# 6. Push to GitHub
+git push -u origin main
+
+
+If you want to update later
+Whenever you make changes, just run:
+
+powershell
+git add .
+git commit -m "Update: added new feature"
+git push
